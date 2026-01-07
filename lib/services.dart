@@ -11,6 +11,10 @@ class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Services"),
+        backgroundColor: Colors.amber,
+      ),
         body: Column(
           children: [
             Text("Hello"),
