@@ -16,6 +16,13 @@ class _uiState extends State<ui> {
         backgroundColor: Colors.blueAccent,
         centerTitle: true,
       ),
+      body: Row(
+        children: [
+          Text("Product one"),
+          Text("Product two"),
+          Text("Product three"),
+        ],
+      ),
     );
   }
 }
