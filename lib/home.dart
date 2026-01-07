@@ -16,6 +16,7 @@ class _homeState extends State<home> {
           Text("Home"),
           Text("Chats"),
           Text("Profile"),
+          Icon(Icons.home),
         ],
       ),
     );
